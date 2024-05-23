@@ -47,6 +47,8 @@ Each subdirectory contains:
 // JavaScript example
 const config = Configuration.getInstance();
 const databaseUrl = config.getDatabaseUrl();
+```
+
 
 ## Contributing
 ### Feel free to contribute by:
