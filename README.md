@@ -49,17 +49,6 @@ const config = Configuration.getInstance();
 const databaseUrl = config.getDatabaseUrl();
 ```
 
-### C#
-
-```csharp
-// C# example
-Singleton config = Singleton.GetInstance();
-string databaseUrl = config.GetDatabaseUrl();
-```
-
-## C# Implementation
-
-The C# implementation of the Singleton pattern can be found in the `/csharp` subdirectory. The implementation includes a class `Singleton` with a private constructor, a static instance variable, and a static `GetInstance` method to provide access to the single instance.
 
 ## Contributing
 ### Feel free to contribute by:
